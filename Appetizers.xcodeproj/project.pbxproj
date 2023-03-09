@@ -8,17 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		FB6FECAB2992AADA00F89255 /* AppetizersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6FECAA2992AADA00F89255 /* AppetizersApp.swift */; };
-		FB6FECAD2992AADA00F89255 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6FECAC2992AADA00F89255 /* ContentView.swift */; };
+		FB6FECAD2992AADA00F89255 /* AppetizerTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6FECAC2992AADA00F89255 /* AppetizerTabView.swift */; };
 		FB6FECAF2992AADE00F89255 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB6FECAE2992AADE00F89255 /* Assets.xcassets */; };
 		FB6FECB22992AADE00F89255 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB6FECB12992AADE00F89255 /* Preview Assets.xcassets */; };
+		FB6FECB92992AB2B00F89255 /* AppetizerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6FECB82992AB2B00F89255 /* AppetizerListView.swift */; };
+		FB6FECBB2992AB3200F89255 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6FECBA2992AB3200F89255 /* AccountView.swift */; };
+		FB6FECBD2992AB3800F89255 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6FECBC2992AB3800F89255 /* OrderView.swift */; };
+		FB7F20D729AFEE1300A7281E /* Appetizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7F20D629AFEE1300A7281E /* Appetizer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FB6FECA72992AADA00F89255 /* Appetizers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Appetizers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB6FECAA2992AADA00F89255 /* AppetizersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizersApp.swift; sourceTree = "<group>"; };
-		FB6FECAC2992AADA00F89255 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FB6FECAC2992AADA00F89255 /* AppetizerTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerTabView.swift; sourceTree = "<group>"; };
 		FB6FECAE2992AADE00F89255 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB6FECB12992AADE00F89255 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FB6FECB82992AB2B00F89255 /* AppetizerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListView.swift; sourceTree = "<group>"; };
+		FB6FECBA2992AB3200F89255 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		FB6FECBC2992AB3800F89255 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		FB7F20D629AFEE1300A7281E /* Appetizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appetizer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +59,12 @@
 		FB6FECA92992AADA00F89255 /* Appetizers */ = {
 			isa = PBXGroup;
 			children = (
+				FB6FECBA2992AB3200F89255 /* AccountView.swift */,
+				FB6FECB82992AB2B00F89255 /* AppetizerListView.swift */,
+				FB6FECAC2992AADA00F89255 /* AppetizerTabView.swift */,
+				FB7F20D629AFEE1300A7281E /* Appetizer.swift */,
 				FB6FECAA2992AADA00F89255 /* AppetizersApp.swift */,
-				FB6FECAC2992AADA00F89255 /* ContentView.swift */,
+				FB6FECBC2992AB3800F89255 /* OrderView.swift */,
 				FB6FECAE2992AADE00F89255 /* Assets.xcassets */,
 				FB6FECB02992AADE00F89255 /* Preview Content */,
 			);
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB6FECAD2992AADA00F89255 /* ContentView.swift in Sources */,
+				FB7F20D729AFEE1300A7281E /* Appetizer.swift in Sources */,
+				FB6FECBB2992AB3200F89255 /* AccountView.swift in Sources */,
+				FB6FECAD2992AADA00F89255 /* AppetizerTabView.swift in Sources */,
 				FB6FECAB2992AADA00F89255 /* AppetizersApp.swift in Sources */,
+				FB6FECB92992AB2B00F89255 /* AppetizerListView.swift in Sources */,
+				FB6FECBD2992AB3800F89255 /* OrderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
